@@ -1,8 +1,8 @@
 
-`catalog_product_index_eav`
-`catalog_product_index_eav_decimal`
-`catalog_product_index_eav_decimal_idx`
-`catalog_product_index_eav_decimal_tmp`
-`catalog_product_index_eav_idx`
-`catalog_product_index_eav_tmp`
-`quote_address`
+catalog_product_index_eav
+catalog_product_index_eav_decimal
+catalog_product_index_eav_decimal_idx
+catalog_product_index_eav_decimal_tmp
+catalog_product_index_eav_idx
+catalog_product_index_eav_tmp
+quote_address
