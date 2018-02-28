@@ -1,5 +1,4 @@
 
-lib/web/extjs/ext-tree.js
 lib/web/extjs/defaults.js
 lib/web/tiny_mce/tiny_mce_jquery_src.js
 lib/web/tiny_mce/tiny_mce_src.js
@@ -5988,6 +5987,9 @@ setup/performance-toolkit/profiles/ce/medium.xml
 setup/performance-toolkit/profiles/ce/large.xml
 package.json.sample
 vendor/seld/jsonlint/.travis.yml
+vendor/seld/jsonlint/bin/jsonlint
+vendor/seld/jsonlint/CHANGELOG.md
+vendor/seld/jsonlint/composer.json
 vendor/seld/jsonlint/src/Seld/JsonLint/JsonParser.php
 vendor/seld/jsonlint/tests/JsonParserTest.php
 vendor/colinmollenhour/credis/Sentinel.php
@@ -6002,9 +6004,16 @@ vendor/colinmollenhour/php-redis-session-abstract/src/Cm/RedisSession/Handler/Co
 vendor/symfony/process/Pipes/AbstractPipes.php
 vendor/symfony/process/Pipes/UnixPipes.php
 vendor/symfony/process/Pipes/WindowsPipes.php
+vendor/symfony/process/ProcessUtils.php
 vendor/symfony/process/Process.php
+vendor/symfony/process/Tests/ProcessTest.php
 vendor/symfony/process/ExecutableFinder.php
+vendor/symfony/process/LICENSE
 vendor/symfony/event-dispatcher/GenericEvent.php
+vendor/symfony/event-dispatcher/Event.php
+vendor/symfony/event-dispatcher/Tests/GenericEventTest.php
+vendor/symfony/event-dispatcher/Tests/ContainerAwareEventDispatcherTest.php
+vendor/symfony/event-dispatcher/LICENSE
 vendor/symfony/event-dispatcher/EventDispatcherInterface.php
 vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php
 vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php
@@ -6015,6 +6024,7 @@ vendor/symfony/finder/Tests/Iterator/FilterIteratorTest.php
 vendor/symfony/finder/Tests/Iterator/MockSplFileInfo.php
 vendor/symfony/finder/Tests/FinderTest.php
 vendor/symfony/finder/Iterator/FilterIterator.php
+vendor/symfony/finder/LICENSE
 vendor/symfony/finder/Finder.php
 vendor/symfony/finder/composer.json
 vendor/symfony/filesystem/LockHandler.php
@@ -6022,13 +6032,22 @@ vendor/symfony/filesystem/CHANGELOG.md
 vendor/symfony/filesystem/Tests/FilesystemTestCase.php
 vendor/symfony/filesystem/Tests/LockHandlerTest.php
 vendor/symfony/filesystem/Tests/FilesystemTest.php
+vendor/symfony/filesystem/LICENSE
 vendor/symfony/filesystem/composer.json
 vendor/symfony/filesystem/Filesystem.php
 vendor/phpseclib/phpseclib/phpseclib/Math/BigInteger.php
 vendor/phpseclib/phpseclib/phpseclib/File/X509.php
 vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php
 vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php
+vendor/phpseclib/phpseclib/phpseclib/Net/SFTP/Stream.php
+vendor/phpseclib/phpseclib/phpseclib/Crypt/Twofish.php
+vendor/phpseclib/phpseclib/phpseclib/Crypt/Base.php
+vendor/phpseclib/phpseclib/phpseclib/Crypt/Random.php
+vendor/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php
+vendor/phpseclib/phpseclib/phpseclib/Crypt/Hash.php
+vendor/phpseclib/phpseclib/phpseclib/Crypt/RC2.php
 vendor/phpseclib/phpseclib/README.md
+vendor/phpseclib/phpseclib/composer.json
 vendor/magento/module-version/etc/module.xml
 vendor/magento/module-version/etc/frontend/routes.xml
 vendor/magento/module-version/registration.php
@@ -7786,7 +7805,6 @@ vendor/magento/module-authorization/Test/Unit/Model/Acl/Loader/RuleTest.php
 vendor/magento/module-authorization/Test/Unit/Model/Acl/Loader/RoleTest.php
 vendor/magento/module-authorization/Test/Unit/Model/CompositeUserContextTest.php
 vendor/magento/module-authorization/composer.json
-vendor/magento/magento2-base/lib/web/extjs/ext-tree.js
 vendor/magento/magento2-base/lib/web/extjs/defaults.js
 vendor/magento/magento2-base/lib/web/tiny_mce/tiny_mce_jquery_src.js
 vendor/magento/magento2-base/lib/web/tiny_mce/tiny_mce_src.js
@@ -18392,6 +18410,7 @@ vendor/magento/module-encryption-key/Controller/Adminhtml/Crypt/Key.php
 vendor/magento/module-encryption-key/Controller/Adminhtml/Crypt/Key/Save.php
 vendor/magento/module-encryption-key/Controller/Adminhtml/Crypt/Key/Index.php
 vendor/magento/module-encryption-key/composer.json
+vendor/magento/magento-composer-installer/src/MagentoHackathon/Composer/Magento/DeployManager.php
 vendor/magento/module-customer-import-export/view/adminhtml/layout/customer_import_export_index_exportcsv.xml
 vendor/magento/module-customer-import-export/view/adminhtml/layout/customer_index_grid_block.xml
 vendor/magento/module-customer-import-export/view/adminhtml/layout/customer_import_export_index_exportxml.xml
@@ -29107,6 +29126,12 @@ vendor/magento/module-eav/Test/Unit/_files/describe_table_eav_attribute.php
 vendor/magento/module-eav/composer.json
 vendor/autoload.php
 vendor/composer/autoload_files.php
+vendor/composer/spdx-licenses/res/spdx-exceptions.json
+vendor/composer/spdx-licenses/res/spdx-licenses.json
+vendor/composer/spdx-licenses/CHANGELOG.md
+vendor/composer/spdx-licenses/README.md
+vendor/composer/spdx-licenses/composer.json
+vendor/composer/spdx-licenses/src/SpdxLicenses.php
 vendor/composer/installed.json
 vendor/composer/autoload_psr4.php
 vendor/composer/autoload_classmap.php
