@@ -1,0 +1,7 @@
+
+vendor/autoload.php
+vendor/composer/autoload_real.php
+vendor/composer/autoload_static.php
+app/etc/env.php
+var/log/debug.log
+generated/code/Magento/Catalog/Model/ResourceModel/Category/Proxy.php
